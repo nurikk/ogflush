@@ -13,7 +13,7 @@ if(argv.f) {
   urls = urls.concat(_file.split("\n"));
 }
 urls = urls.filter(function(u){return !!u});
-if(url.length == 0){
+if(urls.length === 0){
   console.log('Usage');
   console.log('ogflush -u http://some.url/');
   console.log('ogflush -f file.txt');
