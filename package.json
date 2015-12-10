@@ -1,0 +1,33 @@
+{
+  "name": "ogflush",
+  "version": "1.0.0",
+  "description": "flush OpenGraph caches",
+  "main": "ogflush.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/nurikk/ogflush.git"
+  },
+  "keywords": [
+    "open",
+    "graph",
+    "facebook"
+  ],
+  "author": "NuR",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/nurikk/ogflush/issues"
+  },
+  "homepage": "https://github.com/nurikk/ogflush#readme",
+  "dependencies": {
+    "install": "^0.4.1",
+    "minimist": "^1.2.0",
+    "npm": "^3.5.1",
+    "request": "^2.67.0"
+  },
+  "bin": {
+    "ogflush": "ogflush.js"
+  }
+}
