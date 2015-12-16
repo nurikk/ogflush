@@ -1,6 +1,6 @@
 {
   "name": "ogflush",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "flush OpenGraph caches",
   "main": "ogflush.js",
   "scripts": {
@@ -25,7 +25,8 @@
     "install": "^0.4.1",
     "minimist": "^1.2.0",
     "npm": "^3.5.1",
-    "request": "^2.67.0"
+    "request": "^2.67.0",
+    "simply-wait": "^1.0.2"
   },
   "bin": {
     "ogflush": "ogflush.js"
